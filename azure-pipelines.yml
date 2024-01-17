@@ -10,6 +10,6 @@ steps:
   displayName: 'Run automated API tests using Postman CLI'
   inputs:
     script: |
-        postman login --with-api-key $(POSTMAN_API_KEY)
+        postman login --with-api-key PMAK-65a75052c3d33700321c775f-3e66750686e9666e82ed81ccc7825d0f65
         # Run your collection using Postman CLI
         postman collection run "27698416-50e2bcf0-a182-4887-90a1-627156c92626"
